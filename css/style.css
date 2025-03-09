@@ -37,7 +37,7 @@ body {
 .logo {
     font-size: 2.5em;
     font-weight: bold;
-    background-image: linear-gradient(45deg, #3498db, #2ecc71, #f1c40f, #e74c3c);
+    background-image: linear-gradient(45deg, #ffb835, #649bff, #208869, #30ebb3);
     background-size: 300% 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
