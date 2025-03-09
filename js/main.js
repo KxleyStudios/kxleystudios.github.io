@@ -23,7 +23,7 @@ tabLinks.forEach(link => {
 // Sample project data (you would replace these with your actual projects)
 const projects = {
     art: [
-        { image: 'images/projects/art1.jpg', title: '3D Render-Cinny', description: 'This is a 3D Render Of One of my Ocs (Origonal Characters) Cinny' },
+        { image: 'images/projects/art1.jpg', title: '3D Cinny', description: 'This is a 3D Render Of One of my Ocs (Origonal Characters) Cinny' },
         { image: 'images/projects/art2.jpg', title: 'Artwork 2', description: 'Description of artwork 2' },
         { image: 'images/projects/art3.jpg', title: 'Artwork 3', description: 'Description of artwork 3' },
         { image: 'images/projects/art4.jpg', title: 'Artwork 4', description: 'Description of artwork 4' },
