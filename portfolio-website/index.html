@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="logo">YOUR NAME</h1>
+            <p class="tagline">Illustration | Design | Concept Art</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#art" class="tab-link active" data-tab="art">Art</a></li>
+                <li><a href="#animation" class="tab-link" data-tab="animation">Animation</a></li>
+                <li><a href="#storyboard" class="tab-link" data-tab="storyboard">Storyboard</a></li>
+                <li><a href="#gamedev" class="tab-link" data-tab="gamedev">GameDev</a></li>
+                <li><a href="#ui-ux" class="tab-link" data-tab="ui-ux">UI/UX</a></li>
+                <li><a href="#about" class="tab-link" data-tab="about">About/Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="art" class="tab-content active">
+            <h2 class="section-title">Art Portfolio</h2>
+            <div class="gallery" id="art-gallery">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="animation" class="tab-content">
+            <h2 class="section-title">Animation Work</h2>
+            <div class="gallery" id="animation-gallery">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="storyboard" class="tab-content">
+            <h2 class="section-title">Storyboards</h2>
+            <div class="gallery" id="storyboard-gallery">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="gamedev" class="tab-content">
+            <h2 class="section-title">Game Development</h2>
+            <div class="gallery" id="gamedev-gallery">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="ui-ux" class="tab-content">
+            <h2 class="section-title">UI/UX Design</h2>
+            <div class="gallery" id="ui-ux-gallery">
+                <!-- Gallery items will be dynamically added here -->
+            </div>
+        </div>
+
+        <div id="about" class="tab-content">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="profile-container">
+                    <img src="images/profile/profile.jpg" alt="Your Profile" id="profile-image" class="profile-image">
+                </div>
+                <div class="bio-container">
+                    <h3 class="bio-title">Your Name</h3>
+                    <p class="bio-text">
+                        I am an illustrator, designer, and art director specializing in visual communication, 
+                        concept art, UI design, and world-building in video game development, publishing, and film production.
+                    </p>
+                    <div class="clients">
+                        <h4>Clients</h4>
+                        <p>Client 1, Client 2, Client 3, Client 4, Client 5, Client 6</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-title" style="margin-top: 50px;">Contact Me</h2>
+            <div class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </div>
+
+            <div class="social-links">
+                <a href="#" title="Instagram"><i>IG</i></a>
+                <a href="#" title="LinkedIn"><i>LI</i></a>
+                <a href="#" title="YouTube"><i>YT</i></a>
+                <a href="#" title="Facebook"><i>FB</i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
