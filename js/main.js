@@ -24,9 +24,9 @@ tabLinks.forEach(link => {
 const projects = {
     art: [
         { image: 'images/projects/art1.jpg', title: '3D Cinny', description: 'This is a 3D Render Of One of my Ocs (Origonal Characters) Cinny' },
-        { image: 'images/projects/art2.jpg', title: 'Artwork 2', description: 'Description of artwork 2' },
-        { image: 'images/projects/art3.jpg', title: 'Artwork 3', description: 'Description of artwork 3' },
-        { image: 'images/projects/art4.jpg', title: 'Artwork 4', description: 'Description of artwork 4' },
+        { image: 'images/projects/art2.jpg', title: 'The darkness, it calls me.', description: 'Join the darkness.' },
+        { image: 'images/projects/art3.jpg', title: 'Who is this?', description: 'Take a deep breath and Pace Yourself' },
+        { image: 'images/projects/art4.jpg', title: 'Demo Artwork', description: 'I feel so... funny?' },
         { image: 'images/projects/art5.jpg', title: 'Artwork 5', description: 'Description of artwork 5' },
         { image: 'images/projects/art6.jpg', title: 'Artwork 6', description: 'Description of artwork 6' }
     ],
